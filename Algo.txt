@@ -1,0 +1,18 @@
+Conference Track Management
+
+Assumptions:
+Any talk can't be more than of 240 minutes.
+and talks are limited upto 1000 as i used array of size 1000 to store talks.
+
+Input: Description of talks with their time duration.
+
+Algo:
+
+Steps
+1) Read file and extract time for each talk.
+2) sum the time of all talks and divide by 420 which indicates the minimum tracks required for management.
+3) for each track possible 
+	try to find a complete subset of talks with exact time of session.if found allocate talks to that respective track and 
+	session.
+4)after searching complete subset for each track, the remaining talks are filled in "first fit" manner. First Fit is Fast as compared to Best Fit and Worst Fit.
+5)Finally print output on console

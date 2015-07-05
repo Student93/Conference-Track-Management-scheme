@@ -1,0 +1,4 @@
+To run code 
+1)open console
+2)Type: g++ codeass.cpp 
+3)	./a.out
